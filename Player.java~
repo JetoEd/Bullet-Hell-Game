@@ -1,7 +1,7 @@
 public class Player extends GameObject {
     
     Player(double x, double y) {
-        super(x, y, "images/player.png");
+        super(x, y, "src/images/player.png");
     }
 //------------------------------------------------------------------------------
     public void moveLeft(double playerVelocity) {

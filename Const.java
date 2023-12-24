@@ -1,38 +1,29 @@
 import java.awt.Color;
+import java.awt.Font; 
 
-public final class Const{
+public class Const {
     public static final int FRAME_WIDTH = 1920;
     public static final int FRAME_HEIGHT = 1080;
-    public static final int RUN_SPEED = 5;
     public static final int FRAME_PERIOD = 10;
     
-    public static final int BULLET_HEIGHT = 5;
-    public static final int BULLET_WIDTH = 5;
-    
-    public static final int BULLET_STEP1 = 7;
-    public static final int BULLET_STEP2 = 11;
-    public static final int BULLET_STEP3 = 14;
-    
-    
-    public static final int PLAYER_STEP = 3;
-    public static final int PLAYER_WIDTH = 25;
-    public static final int PLAYER_HEIGHT = 25;
-    
-    public static final Color BULLET_COLOR = Color.red;
-    public static final Color PLAYER_COLOR = Color.blue;
-    public static final Color CHASE_COLOR = Color.black;
     public static final Color HITBOX_COLOR = Color.green;
     
-    public static final int CHASE_STEP1 = 4;
-    public static final int CHASE_STEP2 = 6;
-    public static final int CHASE_STEP3 = 7;
+    public static final Font SCORE_FONT = new Font("Times New Roman", Font.BOLD, 40);
+    public static final Font DEATH_FONT = new Font("Times New Roman", Font.BOLD, 60);
+    public static final Font MENU_FONT = new Font("Times New Roman", Font.BOLD, 150);
+    public static final Font INSTRUCTIONS_FONT = new Font("Times New Roman",Font.BOLD, 80);
     
-    public static final int CHASE_WIDTH = 20;
-    public static final int CHASE_HEIGHT = 20;
+    public static final int SECOND_DIFFICULTY_SCORE = 750;
+    public static final int THIRD_DIFFICULTY_SCORE = 1500;
+    
+    public static final int PLAYER_BULLET_VELOCITY = 7;
+    public static final int PLAYER_BULLET_LIMIT = 200;
     
     public static final int CHASE_LIMIT = 25;
+    public static final int CHASER_POINTS = 10;
     
+    public static final int SHOOTER_LIMIT = 10;
+    public static final int SHOOTER_POINTS = 20;
     
-    private Const(){
-    }
+    public static final int SHOOTER_BULLET_LIMIT = 300;
 }
