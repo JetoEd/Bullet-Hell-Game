@@ -1,5 +1,0 @@
-public class Background extends GameObject {
-    Background() {
-        super(0, 0, "src/images/background.png");
-    }
-}

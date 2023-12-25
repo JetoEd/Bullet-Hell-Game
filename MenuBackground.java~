@@ -1,5 +1,0 @@
-public class MenuBackground extends GameObject{
-    MenuBackground() {
-        super(0, 0, "src/images/menuBackground.png");
-    }
-}
